@@ -35,77 +35,75 @@
     </header>
 
     <main>
-        <section class="banner">
-            <h1>The world’s leading cleaning company</h1>
-            <button type="button" class="button button-secondary">
-                Get a Free Estimate
-            </button>
-        </section>
 
         <section>
-            <h2>OUR MOST POPULAR SERVICES</h2>
-            <ul>
-                <li>
-                    <img src="images/services/service1.jpg" alt="">
-                    <h3>Carpet <br>Cleaning</h3>
-                    <p>When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
-                    <a href="#" class="button">Learn More</a>
-                </li>
-                <li>
-                    <img src="images/services/service2.jpg" alt="">
-                    <h3>Carpet <br>Cleaning</h3>
-                    <p>When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
-                    <a href="#" class="button">Learn More</a>
-                </li>
-                <li>
-                    <img src="images/services/service3.jpg" alt="">
-                    <h3>Carpet <br>Cleaning</h3>
-                    <p>When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
-                    <a href="#" class="button">Learn More</a>
-                </li>
-                <li>
-                    <img src="images/services/service4.jpg" alt="">
-                    <h3>Carpet <br>Cleaning</h3>
-                    <p>When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
-                    <a href="#" class="button">Learn More</a>
-                </li>
-            </ul>
-        </section>
+            <h1 class="contact-title">Contact  Us</h1>
+            <form action="#" method="post">
 
-        <section>
-            <div>
-                <h2>Why Haley’s Chem-Dry?</h2>
-                <p>Chem-Dry’s mission is helping people live healthy lives, which starts with clean carpets and a healthy home. Our proprietary hot carbonating extraction cleaning process penetrates deep into the fibers, removing an average of 98% of common household allergens from carpets, upholstery and rugs and 89% of the airborne bacteria in your home when a sanitizer is added.* Plus, our green-certified solution, The Natural®, contains no soaps or detergents so it’s safe and non-toxic for your family and pets.</p>
-                <a href="#" class="button">Learn More</a>
-            </div>
-            <img src="images/about.jpg" alt="">
-        </section>
+                <div>
+                    <div>
+                        <label for="input-name">Name</label>
+                        <input type="text" id="input-name" placeholder="Ivan Ivanov">
+                    </div>
+                    <label>
+                        <span>Phone</span>
+                        <input type="tel">
+                    </label>
+                    
+                </div>
 
-        <section>
-            <h2>Awards</h2>
-            <ul>
-                <li>
-                    <img src="images/brands/brand1.png" alt="">
-                </li>
-                <li>
-                    <img src="images/brands/brand2.png" alt="">
-                </li>
-                <li>
-                    <img src="images/brands/brand3.png" alt="">
-                </li>
-                <li>
-                    <img src="images/brands/brand4.png" alt="">
-                </li>
-                <li>
-                    <img src="images/brands/brand5.png" alt="">
-                </li>
-                <li>
-                    <img src="images/brands/brand6.png" alt="">
-                </li>
-            </ul>
+                <div>
+                    <label for="input-email" class="">Email</label>
+                    <input type="email" id="input-email" required>
+                </div>
+
+                <fieldset>
+                    <legend>Payment Methods</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="check-cash" name="cash">
+                            <label for="check-cash">Сash</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="check-card" name="card" disabled>
+                            <label for="check-card">Сredit Сard</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="check-receipt" name="receipt">
+                            <label for="check-receipt">Receipt</label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <div>
+                    <label for="input-city">City of Birth</label>
+                    <input type="date" id="input-city">
+                </div>
+
+                <fieldset>
+                    <legend>Do you need a report on the services provided?</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" id="radio-yes" name="report" checked>
+                            <label for="radio-yes">Yes</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="radio-no" name="report">
+                            <label for="radio-no">No</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <div>
+                    <label for="textarea">Message</label>
+                    <textarea placeholder="Message" id="textarea"></textarea>
+                </div>
+                
+
+                <button type="submit">SUBMIT</button>
+
+            </form>
         </section>
     </main>
-
 
     <article>
         <h2>Chem-Dry</h2>
@@ -139,34 +137,5 @@
             </li>
         </ul>
     </footer>
-
-
-    <form action="#" method="post" class="modal">
-        <div>
-            <div>
-                <label for="input-name">Name</label>
-                <input type="text" id="input-name" placeholder="Ivan Ivanov">
-            </div>
-            <label>
-                <span>Phone</span>
-                <input type="tel">
-            </label>
-            
-        </div>
-
-        <div>
-            <label for="input-email" class="">Email</label>
-            <input type="email" id="input-email" required>
-        </div>
-
-        <div>
-            <label for="textarea">Message</label>
-            <textarea placeholder="Message" id="textarea"></textarea>
-        </div>
-        
-
-        <button type="submit">SUBMIT</button>
-
-    </form>
 </body>
 </html>
