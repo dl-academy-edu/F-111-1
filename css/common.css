@@ -1,0 +1,27 @@
+* {
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #008752;
+    text-decoration: none;
+    border: none;
+    width: 181px;
+    display: block;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.button-secondary {
+    background: #95459A !important;
+}
+
+.footer {
+    background:#00559D;
+}
