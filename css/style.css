@@ -1,6 +1,39 @@
+.banner {
+    background: url('../images/fon.jpg') #E0E7ED no-repeat center;
+    /* background-color: #E0E7ED;
+    background-image: url('../images/fon.jpg');
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.banner .container {
+    padding: 143px 0 286px;
+}
+
 .banner-title {
     font-weight: 900;
     font-size: 90px;
     line-height: 100%;
     color: #00559D;
+    margin: 0;
+    margin-bottom: 49px;
+}
+
+
+/* services */
+
+.services {
+    margin: 70px auto;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;  
+}
+
+.services-item {
+    width: 280px;
+    margin: 10px;
+
 }
