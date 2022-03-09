@@ -18,6 +18,12 @@ img {
     display: block;
 }
 
+.hidden {
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+}
+
 .undotted {
     list-style-type: none;
     padding: 0;

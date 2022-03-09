@@ -37,3 +37,47 @@
     margin: 10px;
 
 }
+
+/* ABOUT */
+
+.about {
+    display: flex;
+    position: relative;
+}
+
+.about:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: -50px;
+    width: 570px;
+    height: 499px;
+    background: #008752;
+    z-index: 5;
+}
+
+.about-img {
+    z-index: 1;
+}
+
+
+
+
+.awards-list {
+    display: flex;
+}
+
+
+/* MAP */
+.map .container {
+    position: relative;
+}
+
+.map-wrapper {
+    background: #008752;
+    width: 380px;
+    position: absolute;
+    top: 90px;
+    left: 0;
+}
