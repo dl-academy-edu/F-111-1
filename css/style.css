@@ -7,7 +7,7 @@
 }
 
 .banner .container {
-    padding: 143px 0 286px;
+    padding: 152px 0 297px;
 }
 
 .banner-title {
@@ -17,13 +17,15 @@
     color: #00559D;
     margin: 0;
     margin-bottom: 49px;
+    width: 80%;
+    letter-spacing: -1px;
 }
 
 
 /* services */
 
 .services {
-    margin: 70px auto;
+    margin: 90px auto 70px;
 }
 
 .services-list {
