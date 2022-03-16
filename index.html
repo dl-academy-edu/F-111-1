@@ -10,7 +10,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/common.min.css">
+	<!-- <link rel="stylesheet" href="css/common.min.css"> -->
+	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -46,7 +47,7 @@
 		<section class="banner">
 			<div class="container banner-wrapper">
 				<h1 class="banner-title">The world’s leading cleaning company</h1>
-				<button type="button" class="button button-secondary">
+				<button type="button" class="button button-secondary button-js">
 					Get a Free Estimate
 				</button>
 			</div>
@@ -109,13 +110,13 @@
 					<img src="images/brands/brand3.png" alt="">
 				</li>
 				<li>
-					<img src="images/brands/brand4.png" alt="">
+					<img src="images/brands/brand1.png" alt="">
 				</li>
 				<li>
-					<img src="images/brands/brand5.png" alt="">
+					<img src="images/brands/brand2.png" alt="">
 				</li>
 				<li>
-					<img src="images/brands/brand6.png" alt="">
+					<img src="images/brands/brand3.png" alt="">
 				</li>
 			</ul>
 		</section>
@@ -169,33 +170,44 @@
 	</footer>
 
 
-	<form action="#" method="post" class="modal">
-		<div>
-			<div>
-				<label for="input-name">Name</label>
-				<input type="text" id="input-name" placeholder="Ivan Ivanov">
+	<div class="modal">
+		<form action="#" method="post" class="modal-form">
+
+			<div class="field-2-column">
+				<div class="label-wrapper">
+					<label for="input-name">Name</label>
+					<input type="text" id="input-name" placeholder="Ivan Ivanov">
+				</div>
+				<label class="label-wrapper">
+					<span>Phone</span>
+					<input type="tel">
+				</label>
+				
 			</div>
-			<label>
-				<span>Phone</span>
-				<input type="tel">
-			</label>
 
-		</div>
+			<div class="label-wrapper">
+				<label for="input-email" class="">Email</label>
+				<input type="email" id="input-email" required>
+			</div>
 
-		<div>
-			<label for="input-email" class="">Email</label>
-			<input type="email" id="input-email" required>
-		</div>
+			<div class="label-wrapper">
+				<label for="textarea">Message</label>
+				<textarea placeholder="Message" id="textarea"></textarea>
+			</div>
+			
 
-		<div>
-			<label for="textarea">Message</label>
-			<textarea placeholder="Message" id="textarea"></textarea>
-		</div>
+			<button type="submit" class="button">SUBMIT</button>
 
+			<button class="close"><svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M2.07109 14.6113C1.58694 15.1295 0.83381 15.1295 0.349661 14.6113C0.107586 14.3522 3.88142e-07 14.0355 4.02063e-07 13.69C4.15984e-07 13.3445 0.107586 13.0278 0.349661 12.7687L5.27185 7.5L0.349662 2.23127C0.107587 1.97215 8.86971e-07 1.65547 9.00891e-07 1.30998C9.14812e-07 0.964491 0.107587 0.647806 0.349662 0.388689C0.833811 -0.129545 1.58694 -0.129545 2.07109 0.388689L6.99328 5.65738L11.9155 0.38869C12.3996 -0.129545 13.1527 -0.129545 13.6369 0.38869C14.121 0.906924 14.121 1.71304 13.6369 2.23127L8.7147 7.5L13.6369 12.7687C14.121 13.287 14.121 14.0931 13.6369 14.6113C13.1527 15.1295 12.3996 15.1295 11.9155 14.6113L6.99328 9.34258L2.07109 14.6113Z" fill="#121212"/>
+				</svg>
+				</button>
 
-		<button type="submit">SUBMIT</button>
+		</form>
+		
+	</div>
 
-	</form>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
